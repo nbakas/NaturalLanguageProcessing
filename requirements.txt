@@ -19,8 +19,7 @@ pyLDAvis
 mlxtend
 
 # Data access / utilities
-kagglehub==1.0.1
-kagglesdk==0.1.27
+kagglehub==0.3.13
 requests
 jinja2
 streamlit
