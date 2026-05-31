@@ -1,36 +1,32 @@
+# Tested with Python: 3.12.4
+
 # Core scientific stack
 numpy>=2.2,<2.4
-scipy
+scipy>=1.15
 pandas
 scikit-learn
 matplotlib
 seaborn
 plotly
+xgboost
+adjustText
 
 # NLP / topic modeling
-gensim>=4.4
 nltk
-spacy
-pyLDAvis
+gensim>=4.4
 wordcloud
+pyLDAvis
 mlxtend
 
-# spaCy English model
-en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+# Data access / utilities
+kagglehub
+requests
+jinja2
+streamlit
 
-# Deep learning / transformers
+# Deep learning / transformers / embeddings
 torch
 transformers
 accelerate
 sentence-transformers
-huggingface_hub
-
-# Other course/project packages
-adjustText
-jinja2
-kagglehub
-xgboost
-requests
-streamlit
-openai
-bitsandbytes
+huggingface-hub
