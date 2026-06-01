@@ -1,4 +1,4 @@
-# Tested with Python: 3.12.4
+# Tested with Python: 3.12.6
 
 # Core scientific stack
 numpy>=2.2,<2.4
@@ -23,6 +23,7 @@ kagglehub==0.3.13
 requests
 jinja2
 streamlit
+nbformat
 
 # Deep learning / transformers / embeddings
 torch
